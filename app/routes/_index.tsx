@@ -20,7 +20,7 @@ export default function Index() {
         </div>
         <Header />
         <div className="slideshow w-screen h-screen">
-        
+          <h1>Ahoj</h1>
         </div>
         <div>
 
