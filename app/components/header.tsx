@@ -1,8 +1,8 @@
-export default function Header(){
+export function Header(){
 
     return(
 
-        <div className="header absolute right-16 translate-y-14 shadow-sm border-solid border-2 rounded-3xl overflow-hidden">
+        <div className="header absolute right-16 translate-y-14 shadow-lg border-none rounded-3xl overflow-hidden bg-white">
             <nav className="flex flex-wrap flex-row list-none text-lg">
                 <li className="p-4 hover:bg-blue-500 hover:text-white cursor-pointer transition-all">O nas</li>
                 <li className="p-4 hover:bg-blue-500 hover:text-white cursor-pointer transition-all">Zavodni plavci</li>

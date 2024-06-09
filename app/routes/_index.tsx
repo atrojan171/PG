@@ -1,8 +1,6 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
-import AwesomeSlider from "react-awesome-slider";
-import "react-awesome-slider/dist/styles.css";
-import "react-awesome-slider/dist/custom-animations/fall-animation.css"
-import Header from "~/components/header";
+import {Header} from "~/components/header";
+import {Slideshow} from "~/components/slideshow";
 
 export const meta: MetaFunction = () => {
   return [
@@ -13,16 +11,15 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
 
+
   return (
-   <div className="desktop bg-white w-full h-full relative">
-        <div className="logo absolute translate-x-10 translate-y-7">
+   <div className="desktop bg-white w-full h-full relative select-none">
+        <div className="logo absolute translate-x-16 translate-y-10 border-none rounded-full overflow-hidden">
           <img className="w-28 h-28" src="/images/logo/logo.png"/>
         </div>
         <Header />
-        <div className="slideshow w-screen h-screen">
-          
-        </div>
-        <div>
+        <Slideshow />
+        <div className="About w-screen h-screen">
 
         </div>
     </div>
