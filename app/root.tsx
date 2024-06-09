@@ -22,7 +22,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body style={{scrollbarWidth: "thin"}}>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
