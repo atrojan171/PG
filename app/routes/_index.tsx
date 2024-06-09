@@ -15,12 +15,12 @@ export default function Index() {
 
   return (
    <div className="desktop bg-white w-full h-full relative">
-        <div className="logo absolute">
-          <img src=""/>
+        <div className="logo absolute translate-x-10 translate-y-7">
+          <img className="w-28 h-28" src="/images/logo/logo.png"/>
         </div>
         <Header />
         <div className="slideshow w-screen h-screen">
-          <h1>Ahoj</h1>
+          
         </div>
         <div>
 
