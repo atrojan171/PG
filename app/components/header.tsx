@@ -2,7 +2,7 @@ export function Header(){
 
     return(
 
-        <div className="header absolute right-12 translate-y-16 shadow-xl border-none rounded-3xl overflow-hidden bg-white z-10">
+        <div className="header absolute right-12 translate-y-20 shadow-xl border-none rounded-3xl overflow-hidden bg-white z-10">
             <nav className="flex flex-wrap flex-row list-none text-xl">
                 <li className="p-6 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">O nas</li>
                 <li className="p-6 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Zavodni plavci</li>
