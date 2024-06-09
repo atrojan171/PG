@@ -22,8 +22,14 @@ export function Slideshow(){
     useEffect(() => {
 
         let slideIndex:number = 0;
-
+        slideShow();
         
+        function slideShow(){
+            let i = 0;
+
+            
+
+        }
 
     })
 
