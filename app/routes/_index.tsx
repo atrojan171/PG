@@ -13,7 +13,7 @@ export default function Index() {
 
 
   return (
-   <div className="desktop bg-white w-full h-full relative select-none">
+   <div className="desktop bg-white w-full h-full relative select-none overflow-x-hidden">
         <div className="logo absolute translate-x-16 translate-y-12 border-none rounded-full overflow-hidden z-10">
           <img className="w-36 h-36" src="/images/logo/logo.png"/>
         </div>
