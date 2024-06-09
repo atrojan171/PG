@@ -29,14 +29,3 @@ export default function Index() {
   );
 }
 
-
-const slider = () => {
-
-  return(
-    <AwesomeSlider animation="fallAnimation">
-      <div>1</div>
-      <div>2</div>
-    </AwesomeSlider>
-  );
-
-}
