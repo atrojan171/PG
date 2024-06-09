@@ -1,18 +1,26 @@
 import type { MetaFunction } from "@netlify/remix-runtime";
+import Header from "~/components/header";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Znojmo" },
+    { name: "Znojmo", content: "" },
   ];
 };
 
 export default function Index() {
   return (
-   <div>
-     <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-   </div> 
+   <div className="desktop bg-white w-full h-full relative">
+        <div className="logo absolute">
+          <img src=""/>
+        </div>
+        <Header />
+        <div className="slideshow w-screen h-screen">
+
+        </div>
+        <div>
+
+        </div>
+    </div>
   );
 }
