@@ -10,7 +10,7 @@ export function Header(){
                 <li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Treneri</li>
                 <li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kontakt</li>
                 <li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Facebook</li>
-                <div className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all w-auto h-auto"></div>
+                <li className="min-2xl:p-6 p-5 hover:underline cursor-pointer transition-all"><div className="w-6 h-6"></div></li>
             </nav>
         </div>
 

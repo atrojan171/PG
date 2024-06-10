@@ -1,11 +1,13 @@
-nav div{
+nav li div{
 
-    background-image: url("/images/used/dom_1.png");
-
+    background-image: url("/images/used/dom1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     transition: all 2s ease-in-out;
 }
 
-nav div:hover{
+nav li:hover div{
 
     background-image: url("/images/used/dom.png");
 
