@@ -32,7 +32,7 @@ export function Slideshow(){
     useEffect(() => {
         const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % data.length);
-        }, 4000);
+        }, 4500);
 
         return () => clearInterval(interval);
     }, [data.length]);
@@ -47,7 +47,7 @@ export function Slideshow(){
             </div>
             <div className="absolute bottom-0 z-10 flex flex-row flex-nowrap justify-self-center">
                 {data.map((d:any, index:any) => (
-                      <div key={d.id} className={`dot w-8 h-8 m-2 bg-gray-800 border-2 rounded-full cursor-pointer hover:bg-blue-600 transition-all ${index === currentIndex ? "bg-blue-600" : "bg-gray-800"}`} onClick={() => setCurrentIndex(index)}></div>
+                      <div key={d.id} className={`dot w-8 h-8 m-2 border-2 rounded-full cursor-pointer hover:bg-blue-600 transition-all ${index === currentIndex ? "bg-blue-600" : "bg-gray-800"}`} onClick={() => setCurrentIndex(index)}></div>
                 ))}
             </div>
         </div>
