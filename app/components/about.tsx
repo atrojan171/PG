@@ -37,7 +37,7 @@ export function About(){
                         <div className="h-96 w-96 bg-green-800 border-none rounded-full left-96 -top-64 absolute"></div>
                     </ParallaxLayer>
                     <ParallaxLayer offset={0} speed={-2.3} factor={0} className="z-30">
-                        <div className="h-96 w-96 bg-blue-300 border-none rounded-full" style={{marginLeft: "37.5%", marginTop: "-17.5%"}}></div>
+                        <div className="h-96 w-96 bg-blue-300 border-none rounded-full absolute m-auto left-0 right-0 -top-72"></div>
                     </ParallaxLayer>
                     <ParallaxLayer offset={0} speed={-2.22} factor={0} className="z-20">
                         <div className="h-96 w-96 bg-green-800 border-none rounded-full right-96 -top-64 absolute"></div>
@@ -59,7 +59,7 @@ export function About(){
                         <div className="h-96 w-96 bg-green-400 border-none rounded-full left-60 -top-32 absolute"></div>
                     </ParallaxLayer>
                     <ParallaxLayer offset={0} speed={-2.15} factor={2} className="z-40 ">
-                        <h1 className="justify-self-center text-9xl text-blue-600" style={{marginLeft: "39.5%", marginTop: "12.5%"}}>O nas</h1>
+                        <h1 className="justify-self-center text-9xl text-blue-600 absolute m-auto -translate-x-1/2 left-1/2 top-40">O nas</h1>
                     </ParallaxLayer>
 
                 </div>
