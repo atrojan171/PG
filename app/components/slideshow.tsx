@@ -14,19 +14,27 @@ export function Slideshow(){
         },
         {
             id: 3,
-            img: "",
-        }
+            img: "/images/slideshow/3.jpg",
+        },
+        {
+            id: 4,
+            img: "/images/slideshow/4.jpg",
+        },
+        {
+            id: 5,
+            img: "/images/slideshow/5.jpg",
+        },
     ]
 
-  
+    
 
     
     return(
     
         <div className="relative z-0 w-screen h-screen grid overflow-y-hidden">
-            <div className="w-screen flex flex-row flex-nowrap ">
+            <div className="w-screen flex flex-row flex-nowrap">
                 {data.map((d:any) => (
-                    <img className="slide w-screen h-full" src={d.img} /> 
+                    <img className="slide w-screen h-full" src={d.img}/> 
                 ))}
             </div>
             <div className="absolute bottom-0 z-10 flex flex-row flex-nowrap justify-self-center">
