@@ -31,13 +31,13 @@ export function About(){
                     </ParallaxLayer>
                     
                     <ParallaxLayer offset={0} speed={-2.22} factor={0} className="z-20">
-                        <div className="h-96 w-96 bg-green-800 border-none rounded-full" style={{marginLeft: "24%", marginTop: "-15.5%"}}></div>
+                        <div className="h-96 w-96 bg-green-800 border-none rounded-full" style={{marginLeft: "22%", marginTop: "-15.5%"}}></div>
                     </ParallaxLayer>
                     <ParallaxLayer offset={0} speed={-2.3} factor={0} className="z-10">
                         <div className="h-96 w-96 bg-blue-300 border-none rounded-full" style={{marginLeft: "37.5%", marginTop: "-17.5%"}}></div>
                     </ParallaxLayer>
                     <ParallaxLayer offset={0} speed={-2.22} factor={0} className="z-20">
-                        <div className="h-96 w-96 bg-green-800 border-none rounded-full" style={{marginLeft: "51%", marginTop: "-15.5%"}}></div>
+                        <div className="h-96 w-96 bg-green-800 border-none rounded-full" style={{marginLeft: "53.75%", marginTop: "-15.5%"}}></div>
                     </ParallaxLayer>
 
                     <ParallaxLayer offset={0} speed={-1.9} factor={2} className="z-40">
