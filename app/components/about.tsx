@@ -12,7 +12,7 @@ export function About(){
     return(
 
         <div>
-            <Parallax pages={2} ref={parallax}>          
+            <Parallax pages={2} ref={parallax} style={{scrollbarWidth: "none"}}>          
                 <div className="grid relative">
 
                     <ParallaxLayer offset={0} speed={-2} factor={2} className="z-0">
