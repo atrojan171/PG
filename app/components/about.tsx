@@ -16,7 +16,7 @@ export function About(){
                 <div className="grid relative">
 
                     <ParallaxLayer offset={0} speed={-2} factor={2} className="z-0">
-                        <div className="bg-green-200 w-scren h-screen" style={{marginTop: "-50%"}}></div>
+                        <div className="bg-green-200 w-scren h-screen" style={{marginTop: "-50rem"}}></div>
                     </ParallaxLayer>
                     <ParallaxLayer offset={0} speed={-1.9} factor={2} className="z-40">
                         <div className="h-96 w-96 bg-blue-600 border-none rounded-full" style={{marginLeft: "85%", marginTop: "-10%"}}></div>
@@ -45,7 +45,7 @@ export function About(){
                     </ParallaxLayer>
 
                     <ParallaxLayer offset={0} speed={-1.9} factor={2} className="z-40">
-                        <div className="h-96 w-96 bg-blue-600 border-none rounded-full" style={{marginLeft: "-10%", marginTop: "-10%"}}></div>
+                        <div className="h-96 w-96 bg-blue-600 border-none rounded-full" style={{marginLeft: "-8%", marginTop: "-10%"}}></div>
                     </ParallaxLayer>
                     <ParallaxLayer offset={0} speed={-1.95} factor={2} className="z-20">
                         <div className="h-96 w-96 bg-blue-800 border-none rounded-full" style={{marginLeft: "-10%", marginTop: "0%"}}></div>
@@ -57,7 +57,7 @@ export function About(){
                         <div className="h-96 w-96 bg-green-800 border-none rounded-full" style={{marginLeft: "0%", marginTop: "-2.5%"}}></div>
                     </ParallaxLayer>
                     <ParallaxLayer offset={0} speed={-1.95} factor={2} className="z-0">
-                        <div className="h-96 w-96 bg-green-400 border-none rounded-full" style={{marginLeft: "15%", marginTop: "-7.5%"}}></div>
+                        <div className="h-96 w-96 bg-green-400 border-none rounded-full" style={{marginLeft: "16.5%", marginTop: "-7.5%"}}></div>
                     </ParallaxLayer>
                     <ParallaxLayer offset={0} speed={-2.15} factor={2} className="z-40">
                         <h1 className="justify-self-center text-9xl text-blue-600 z-50" style={{marginLeft: "40%", marginTop: "10%"}}>O nas</h1>
