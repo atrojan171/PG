@@ -1,4 +1,5 @@
-import type { LinksFunction } from "@remix-run/node"; // or cloudflare/deno
+import "./styles/*.css"
+import type { LinksFunction } from "@remix-run/node";
 import {
   Links,
   Meta,
