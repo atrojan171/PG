@@ -2,14 +2,15 @@ export function Header(){
 
     return(
 
-        <div className="header absolute right-12 translate-y-16 shadow-xl border-none rounded-3xl overflow-hidden bg-white z-10">
-            <nav className="flex flex-wrap flex-row list-none text-xl">
-                <li className="p-6 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">O nas</li>
-                <li className="p-6 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Zavodni plavci</li>
-                <li className="p-6 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kurzy a primetske tabory</li>
-                <li className="p-6 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Treneri</li>
-                <li className="p-6 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kontakt</li>
-                <li className="p-6 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Facebook</li>
+        <div className="header absolute right-12 translate-y-14 min-2xl:translate-y-16 shadow-xl border-none rounded-3xl overflow-hidden bg-white z-10">
+            <nav className="flex flex-wrap flex-row list-none min-2xl:text-xl text-base">
+                <li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">O nas</li>
+                <li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Zavodni plavci</li>
+                <li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kurzy a primetske tabory</li>
+                <li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Treneri</li>
+                <li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kontakt</li>
+                <li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Facebook</li>
+                <div className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all w-auto h-auto"></div>
             </nav>
         </div>
 

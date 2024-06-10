@@ -1,0 +1,12 @@
+nav div{
+
+    background-image: url("/images/used/dom_1.png");
+
+    transition: all 2s ease-in-out;
+}
+
+nav div:hover{
+
+    background-image: url("/images/used/dom.png");
+
+}

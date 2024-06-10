@@ -23,8 +23,8 @@ export function Slideshow(){
     
     return(
     
-        <div className="relative z-0 w-screen h-screen overflow-y-hidden grid">
-            <div className="w-screen w-screen flex flex-row flex-nowrap">
+        <div className="relative z-0 w-screen h-screen grid overflow-y-hidden">
+            <div className="w-screen flex flex-row flex-nowrap ">
                 {data.map((d:any) => (
                     <img className="slide w-screen h-full" src={d.img} /> 
                 ))}
