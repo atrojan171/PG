@@ -45,7 +45,7 @@ export default function Index() {
     }
   }, []);
   return (
-    <div className="overlfow-x-hidden">
+    <div className="overflow-x-hidden">
       <Header isVisible={showHeader}/>
         <div className="desktop bg-white w-full h-full relative select-none ">
           <div className="hide">
