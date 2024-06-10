@@ -24,7 +24,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body style={{scrollbarWidth: "thin"}} className="overlfow-y-hidden">
+      <body style={{scrollbarWidth: "thin"}} className="overlfow-x-hidden">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
