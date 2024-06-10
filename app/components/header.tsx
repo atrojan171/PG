@@ -15,18 +15,18 @@ export function Header({ isVisible }: HeaderProps){
     }, [isVisible]);
 
     return(
-        <div className={`header fixed w-screen h-28 overflow-hidden bg-white z-10 grid items-center ${visible ? "visible" : ""}`}>
+        <div className={`header fixed w-screen h-24 overflow-hidden bg-white z-10 grid items-center ${visible ? "visible" : ""}`}>
             <div className="fixed">
-                <img className="ml-2 h-24 w-24" src="/images/logo/logo.png"/>
+                <img className="ml-4 h-20 w-20" src="/images/logo/logo.png"/>
             </div>
-            <nav className="flex flex-wrap flex-row list-none fixed right-0 text-lg">
+            <nav className="flex flex-wrap flex-row list-none fixed right-0 text-base">
                 <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">O nas</li></Link>
                 <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Zavodni plavci</li></Link>
                 <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kurzy a primetske tabory</li></Link>
                 <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Treneri</li></Link>
                 <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kontakt</li></Link>
                 <a href="https://www.facebook.com/TJ.plavani.Znojmo/" target="_blank"><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Facebook</li></a>
-                <Link to={"/"}><li className="p-5 hover:underline cursor-pointer transition-all"><div className="w-7 h-7"></div></li></Link>
+                <Link to={"/"}><li className="p-5 hover:underline cursor-pointer transition-all"><div className="w-6 h-6"></div></li></Link>
             </nav>
         </div>
 
