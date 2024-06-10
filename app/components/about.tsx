@@ -59,7 +59,7 @@ export function About(){
                     <ParallaxLayer offset={0} speed={-1.95} factor={2} className="z-0">
                         <div className="h-96 w-96 bg-green-400 border-none rounded-full" style={{marginLeft: "15%", marginTop: "-7.5%"}}></div>
                     </ParallaxLayer>
-                    <ParallaxLayer offset={0} speed={-1.5} factor={1} className="z-40">
+                    <ParallaxLayer offset={0} speed={-2} factor={1} className="z-40">
                         <h1 className="justify-self-center text-9xl text-blue-600 z-50" style={{marginLeft: "40%", marginTop: "10%"}}>O nas</h1>
                     </ParallaxLayer>
 
