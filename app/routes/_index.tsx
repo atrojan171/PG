@@ -2,6 +2,7 @@ import type { MetaFunction } from "@netlify/remix-runtime";
 import {Header} from "~/components/header";
 import {Slideshow} from "~/components/slideshow";
 
+
 export const meta: MetaFunction = () => {
   return [
     { title: "Znojmo" },
