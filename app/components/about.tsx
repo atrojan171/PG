@@ -12,7 +12,7 @@ export function About(){
     return(
 
         <div>
-            <Parallax pages={2}>          
+            <Parallax pages={2} ref={parallax}>          
                 <div className="grid relative">
                     <ParallaxLayer offset={0} speed={-1.9} factor={2} className="z-40">
                         <div className="h-96 w-96 bg-blue-600 border-none rounded-full" style={{marginLeft: "85%", marginTop: "-10%"}}></div>
@@ -58,7 +58,10 @@ export function About(){
                     <ParallaxLayer offset={0} speed={-1.95} factor={2} className="z-40">
                         <h1 className="justify-self-center text-9xl text-blue-600 z-50" style={{marginLeft: "40%", marginTop: "10%"}}>O nas</h1>
                     </ParallaxLayer>
-
+                    
+                    <ParallaxLayer offset={0} speed={-1.95} factor={2} className="z-40">
+                        <h1 className="justify-self-center text-9xl text-blue-600 z-50" style={{marginLeft: "40%", marginTop: "10%"}}>O nas</h1>
+                    </ParallaxLayer>
                 </div>
             </Parallax>
         </div>
