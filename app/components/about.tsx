@@ -15,7 +15,7 @@ export function About(){
             <Parallax pages={2} ref={parallax} className=".no-scrollbar">          
                 <div className="grid relative">
                     <ParallaxLayer offset={0} speed={-2} factor={2} className="z-0">
-                        <div className="bg-green-200 w-scren h-screen" style={{marginTop: "-50%"}}></div>
+                        <div className="bg-blue-200 w-scren h-screen relative -top-2/4"></div>
                     </ParallaxLayer>
                     <ParallaxLayer offset={0} speed={-1.9} factor={2} className="z-40">
                         <div className="h-96 w-96 bg-blue-600 border-none rounded-full -right-40 -top-40 absolute"></div>
