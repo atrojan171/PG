@@ -1,4 +1,4 @@
-import "../styles/header.css"
+import "../styles/*.css"
 import { Link } from "@remix-run/react";
 import { Parallax, ParallaxLayer, IParallax} from "@react-spring/parallax";
 import { useRef } from "react";
@@ -12,7 +12,7 @@ export function About(){
     return(
 
         <div>
-            <Parallax pages={2} ref={parallax} className=".no-scrollbar">          
+            <Parallax pages={2} ref={parallax} className="no-scrollbar">          
                 <div className="grid relative">
                     <ParallaxLayer offset={0} speed={-2} factor={2} className="z-0">
                         <div className="bg-blue-200 w-scren h-screen relative -top-2/4"></div>

@@ -1,11 +1,21 @@
 import "../styles/header.css"
 import { Link } from "@remix-run/react";
+import React, { useEffect, useState } from "react";
 
-export function Header(){
+interface HeaderProps {
+  isVisible: boolean;
+}
+
+export function Header({ isVisible }: HeaderProps){
+
+    const [visible, setVisible] = useState(false);
+
+    useEffect(() => {
+        setVisible(isVisible);
+    }, [isVisible]);
 
     return(
-
-        <div className="header sticky w-full h-32 overflow-hidden bg-white z-10 grid items-center"> 
+        <div className={`header fixed w-full h-32 overflow-hidden bg-white z-10 grid items-center ${visible ? "visible" : ""}`}>
             <div className="fixed">
                 <img className="ml-2 h-28 w-28" src="/images/logo/logo.png"/>
             </div>
