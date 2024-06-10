@@ -19,7 +19,7 @@ export default function Index() {
   const parallax = useRef<IParallax>(null!);
 
   return (
-    <div style={{overflow: "hidden"}}>
+    <div>
       <Header/>
       <Parallax pages={4} ref={parallax}>
         <div className="desktop bg-white w-full h-full relative select-none overflow-hidden">
