@@ -10,7 +10,7 @@ export function About(){
 
 
     return(
-        <div>
+        <div id="about">
             <Parallax pages={4} ref={parallax} className="no-scrollbar" style={{backgroundColor:"#FAFAFA"}}>
                 <ParallaxLayer factor={1} offset={0} sticky={{start: 0, end: 4}}>
                     <div className="about z-10 absolute -left-14 w-6/12 h-full scale-75 rounded-full"></div>
