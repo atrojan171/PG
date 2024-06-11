@@ -11,12 +11,12 @@ export function About(){
 
     return(
         <div>
-            <Parallax pages={2} ref={parallax} className="no-scrollbar" style={{backgroundColor:"#FAFAFA"}}>
-                <ParallaxLayer factor={1} offset={0} sticky={{start: 0, end: 1}}>
+            <Parallax pages={4} ref={parallax} className="no-scrollbar" style={{backgroundColor:"#FAFAFA"}}>
+                <ParallaxLayer factor={1} offset={0} sticky={{start: 0, end: 4}}>
                     <div className="about z-10 absolute -left-8 w-6/12 h-full scale-75 rounded-full"></div>
                 </ParallaxLayer>
-                <div className="z-10 text-blue-600 font-bold ">
-                    <ParallaxLayer offset={0} factor={2} speed={-2} style={{display: "none"}}>
+                <div className="z-10 text-blue-600 font-semibold ">
+                    <ParallaxLayer offset={0} factor={1} speed={-2}>
                         <div className="absolute right-28 top-72 text-2xl text-center">
                             <p className="p-8">
                                 Klub byl založen v říjnu 1966 a je zaměřen na závodní plavání. 
@@ -29,7 +29,7 @@ export function About(){
                             </p>
                         </div>
                     </ParallaxLayer>
-                    <ParallaxLayer offset={0} speed={-2} style={{display: "none"}}>
+                    <ParallaxLayer offset={1} speed={-2} factor={1} style={{display: "none"}}>
                         <div className="absolute z-10 right-28 top-72 text-center text-2xl">
                             <p className="p-5">
                                 Za dobu svého působení vychoval několik účastníků Olympiády 
@@ -42,8 +42,8 @@ export function About(){
                             </p>
                         </div>
                     </ParallaxLayer>
-                    <ParallaxLayer offset={0} speed={-2}>
-                        <div  className="absolute z-10 right-5 top-72 text-center text-2xl" style={{display: "none"}}>
+                    <ParallaxLayer offset={2} speed={-2} factor={1}>
+                        <div  className="absolute z-10 right-5 top-72 text-center text-2xl">
                             <p className="p-5">
                                 Kromě olympiády startovali znojemští plavci a získávali medaile 
                             </p>
@@ -55,7 +55,7 @@ export function About(){
                             </p>
                         </div>
                     </ParallaxLayer>
-                    <ParallaxLayer speed={-2} offset={0}>
+                    <ParallaxLayer speed={-2} offset={3} factor={1}>
                         <div className="absolute z-10 right-12 top-64 text-center text-2xl">
                             <p className="p-5">
                                 Klub taky ve Znojmě každoročně pořádá 3 závodů, 
