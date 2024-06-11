@@ -53,18 +53,18 @@ export default function Index() {
             </div>
             <div className="absolute right-12 translate-y-14 min-2xl:translate-y-16 shadow-xl border-none rounded-3xl overflow-hidden bg-white z-40">
               <nav className="flex flex-wrap flex-row list-none min-2xl:text-xl text-base">
-                  <Link to={""}><li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">O nas</li></Link>
-                  <Link to={""}><li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Zavodni plavci</li></Link>
-                  <Link to={""}><li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kurzy a primetske tabory</li></Link>
-                  <Link to={""}><li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Treneri</li></Link>
-                  <Link to={""}><li className="min-2xl:p-20 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kontakt</li></Link>
-                  <a href="https://www.facebook.com/TJ.plavani.Znojmo/" target="_blank"><li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Facebook</li></a>
-                  <Link to={"/"}><li className="min-2xl:p-6 p-5 hover:underline cursor-pointer transition-all"><div className="w-6 h-6"></div></li></Link>
+                  <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">O nas</li></Link>
+                  <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Zavodni plavci</li></Link>
+                  <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kurzy a primetske tabory</li></Link>
+                  <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Treneri</li></Link>
+                  <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kontakt</li></Link>
+                  <a href="https://www.facebook.com/TJ.plavani.Znojmo/" target="_blank"><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Facebook</li></a>
+                  <Link to={"/"}><li className="p-5 hover:underline cursor-pointer transition-all"><div className="w-6 h-6"></div></li></Link>
               </nav>
             </div>
           </div>
           <Slideshow />
-          <svg className="z-20 top-4/4 min-2xl:-mt-20 -mt-11 absolute w-screen shadow-xl" style={{transform: "rotate(-183deg)"}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120">
+          <svg className="z-20 top-4/4 3xl:-mt-12 -mt-11 absolute w-screen shadow-xl" style={{transform: "rotate(-183deg)"}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120">
             <defs>
               <linearGradient id="gradient" x1="100%" y1="0%" x2="100%" y2="160%">
                 <stop offset="0%" style={{stopColor: "#93c5fd", stopOpacity: "1"}}/>
