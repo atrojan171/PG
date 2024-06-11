@@ -6,7 +6,7 @@ export function Footer(){
 
  
     return(
-        <div className="w-auto h-auto relative">
+        <div className="w-auto h-auto relative" id="contact">
             <div className="absolute w-[240%] h-96 z-90 -ml-96 rounded-t-[100%] bg-gradient-to-b from-blue-300 via-blue-500 to-blue-600"></div>
             <div className="absolute left-20 z-100 w-auto h-auto top-28 text-white text-center select-text">
                 <h1 className="pt-3 pl-1 pb-3 text-xl font-semibold underline select-none">Kontakt</h1>

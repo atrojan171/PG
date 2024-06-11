@@ -24,7 +24,7 @@ export function Header({ isVisible }: HeaderProps){
                 <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Zavodni plavci</li></Link>
                 <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kurzy a primetske tabory</li></Link>
                 <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Treneri</li></Link>
-                <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kontakt</li></Link>
+                <Link to={"#contact"}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Kontakt</li></Link>
                 <a href="https://www.facebook.com/TJ.plavani.Znojmo/" target="_blank"><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Facebook</li></a>
                 <Link to={"/"}><li className="p-5 hover:underline cursor-pointer transition-all"><div className="w-6 h-6"></div></li></Link>
             </nav>
