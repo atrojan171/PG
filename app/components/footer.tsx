@@ -25,7 +25,7 @@ export function Footer(){
                 <p className="p-1">Zapsán u Krajského soudu v Brně, spisová značka L26505</p>
             </div>
             <div className="absolute text-center grid justify-center 3xl:mr-60 right-96 mr-20 top-20">
-                <h1 className="pt-3 pl-1 pb-3 text-xl text-white font-semibold">Mapa</h1>
+                <h1 className="pt-3 pl-1 pb-3 text-xl text-white font-semibold underline">Mapa</h1>
                 <img src="/images/logo/logo.png" className="rounded-full border-none w-40 h-40"/>
             </div>
         </div>
