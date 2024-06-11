@@ -68,7 +68,7 @@ export function About(){
                             </p>
                                 V dubnu je to Aprílová vlnka pro 10 až 12leté žáky, určená juniorům a dospělým 
                             <p className="p-5">
-                                a v říjnu pak Malá cena města Znojma pro 12 až 14leté žáky.
+                                a v říjnu pak Malá cena města Znojma pro 12 až 14 leté žáky.
                             </p>
                         </div>
                     </ParallaxLayer>
