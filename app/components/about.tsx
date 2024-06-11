@@ -17,7 +17,7 @@ export function About(){
                 </ParallaxLayer>
                 <div className="z-10 text-blue-600 font-semibold ">
                     <ParallaxLayer offset={0} factor={1} speed={-2}>
-                        <div className="absolute right-28 top-72 text-2xl text-center">
+                        <div className="absolute right-28 top-72 text-2xl text-center 3xl:top-80">
                             <p className="p-8">
                                 Klub byl založen v říjnu 1966 a je zaměřen na závodní plavání. 
                             </p>
@@ -30,7 +30,7 @@ export function About(){
                         </div>
                     </ParallaxLayer>
                     <ParallaxLayer offset={1} speed={-2} factor={1} style={{display: "none"}}>
-                        <div className="absolute z-10 right-28 top-72 text-center text-2xl">
+                        <div className="absolute z-10 right-28 top-72 text-center text-2xl 3xl:top-80">
                             <p className="p-5">
                                 Za dobu svého působení vychoval několik účastníků Olympiády 
                             </p>
@@ -43,7 +43,7 @@ export function About(){
                         </div>
                     </ParallaxLayer>
                     <ParallaxLayer offset={2} speed={-2} factor={1}>
-                        <div  className="absolute z-10 right-5 top-72 text-center text-2xl">
+                        <div  className="absolute z-10 right-5 top-72 text-center text-2xl 3xl:top-80">
                             <p className="p-5">
                                 Kromě olympiády startovali znojemští plavci a získávali medaile 
                             </p>
@@ -56,7 +56,7 @@ export function About(){
                         </div>
                     </ParallaxLayer>
                     <ParallaxLayer speed={-2} offset={3} factor={1}>
-                        <div className="absolute z-10 right-12 top-64 text-center text-2xl">
+                        <div className="absolute z-10 right-12 top-64 text-center text-2xl 3xl:top-80">
                             <p className="p-5">
                                 Klub taky ve Znojmě každoročně pořádá 3 závodů, 
                             </p>
