@@ -29,7 +29,7 @@ export function About(){
                             </p>
                         </div>
                     </ParallaxLayer>
-                    <ParallaxLayer offset={1} speed={-2} factor={1} style={{display: "none"}}>
+                    <ParallaxLayer offset={1} speed={-2} factor={1}>
                         <div className="absolute z-10 right-28 top-72 text-center text-2xl 3xl:top-80 shadow-2xl rounded-3xl">
                             <p className="p-5">
                                 Za dobu svého působení vychoval několik účastníků Olympiády 
