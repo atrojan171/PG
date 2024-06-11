@@ -10,11 +10,10 @@ export function About(){
 
 
     return(
-
         <div>
-            <Parallax pages={1.25} ref={parallax} className="no-scrollbar">
-                <ParallaxLayer speed={-1} factor={1} offset={0}>
-                    <div className="w-4/12 h-4/6 rounded-full border-none bg-blue-600 absolute -left-40 -top-40"></div>
+            <Parallax pages={2} ref={parallax} className="no-scrollbar" style={{backgroundColor:"#E2DFD2"}}>
+                <ParallaxLayer factor={1} offset={0} speed={-1}>
+                    <div className="z-0 absolute -top-40 left-32 w-5/12 h-5/6 rounded-full bg-gradient-to-b from-gray-100 via-gray-150 to-gray-200 shadow-xl"></div>
                 </ParallaxLayer>
             </Parallax>
         </div>
