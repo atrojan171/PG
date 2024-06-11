@@ -9,3 +9,12 @@
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
+
+.about{
+
+    background-image: url("/images/used/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}

@@ -48,10 +48,10 @@ export default function Index() {
       <Header isVisible={showHeader}/>
       <div className="desktop bg-white w-full h-full relative select-none ">       
           <div className="hide">
-            <div className="logo absolute translate-x-12 translate-y-6 border-none rounded-full overflow-hidden shadow-xl z-30">
+            <div className="logo absolute translate-x-12 translate-y-6 border-none rounded-full overflow-hidden shadow-xl z-40">
               <img className="w-36 h-36" src="/images/logo/logo.png"/>
             </div>
-            <div className="absolute right-12 translate-y-14 min-2xl:translate-y-16 shadow-xl border-none rounded-3xl overflow-hidden bg-white z-30">
+            <div className="absolute right-12 translate-y-14 min-2xl:translate-y-16 shadow-xl border-none rounded-3xl overflow-hidden bg-white z-40">
               <nav className="flex flex-wrap flex-row list-none min-2xl:text-xl text-base">
                   <Link to={""}><li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">O nas</li></Link>
                   <Link to={""}><li className="min-2xl:p-6 p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Zavodni plavci</li></Link>
@@ -64,7 +64,7 @@ export default function Index() {
             </div>
           </div>
           <Slideshow />
-          <svg className="z-10 top-2/4 mt-9 absolute h-screen w-screen shadow-xl" style={{transform: "rotate(-183deg)"}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120">
+          <svg className="z-20 top-2/4 mt-9 absolute h-screen w-screen shadow-xl" style={{transform: "rotate(-183deg)"}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120">
             <defs>
               <linearGradient id="gradient" x1="100%" y1="0%" x2="100%" y2="160%">
                 <stop offset="0%" style={{stopColor: "#93c5fd", stopOpacity: "1"}}/>
