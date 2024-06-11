@@ -12,8 +12,8 @@ export function About(){
     return(
         <div>
             <Parallax pages={2} ref={parallax} className="no-scrollbar" style={{backgroundColor:"#FAFAFA"}}>
-                <ParallaxLayer factor={1} offset={0} speed={-1}>
-                    <div className="about z-0 absolute -top-52 left-24 w-5/12 h-5/6 rounded-full bg-gradient-to-b from-gray-100 via-gray-150 to-gray-200 shadow-xl"></div>
+                <ParallaxLayer factor={1.5} offset={0} speed={-2}>
+                    <div className="about z-0 absolute -top-52 left-24 w-2/6 h-2/6 rounded-full bg-gradient-to-b from-gray-100 via-gray-150 to-gray-200 shadow-xl"></div>
                 </ParallaxLayer>
             </Parallax>
         </div>
