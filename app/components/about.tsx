@@ -66,9 +66,9 @@ export function About(){
                             <p className="p-5">
                                 v září se koná druhý nejstarší závod v ČR a to Velká cena města Znojma 
                             </p>
-                                V dubnu je to Aprílová vlnka pro 10 až 12leté žáky, určená juniorům a dospělým 
+                                V dubnu je to Aprílová vlnka pro 10 až 12-leté žáky, určená juniorům a dospělým 
                             <p className="p-5">
-                                a v říjnu pak Malá cena města Znojma pro 12 až 14 leté žáky.
+                                a v říjnu pak Malá cena města Znojma pro 12 až 14-leté žáky.
                             </p>
                         </div>
                     </ParallaxLayer>
