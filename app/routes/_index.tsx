@@ -66,7 +66,7 @@ export default function Index() {
           <Slideshow />
           <svg className="z-10 top-2/4 mt-9 absolute h-screen w-screen shadow-xl" style={{transform: "rotate(-183deg)"}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120">
             <defs>
-              <linearGradient id="gradient" x1="100%" y1="0%" x2="100%" y2="140%">
+              <linearGradient id="gradient" x1="100%" y1="0%" x2="100%" y2="160%">
                 <stop offset="0%" style={{stopColor: "#93c5fd", stopOpacity: "1"}}/>
                 <stop offset="50%" style={{stopColor: "#2563eb", stopOpacity: "1"}}/>
                 <stop offset="100%" style={{stopColor: "#1d4ed8", stopOpacity: "1"}}/>
