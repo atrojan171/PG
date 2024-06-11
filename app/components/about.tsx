@@ -13,7 +13,7 @@ export function About(){
         <div className="w-screen h-screen relative" id="about">
             <Parallax pages={4} ref={parallax} className="no-scrollbar">
                 <ParallaxLayer factor={1} offset={0} sticky={{start: 0, end: 4}}>
-                    <div className="about z-10 absolute 3xl:-left-14 3xl:top-40 2xl:top-20 3xl:top-0 w-5/12 h-5/6 scale-75 rounded-full"></div>
+                    <div className="about z-10 absolute 3xl:-left-14 3xl:top-36 2xl:top-20 3xl:top-0 w-5/12 h-5/6 scale-75 rounded-full"></div>
                 </ParallaxLayer>
                 <div className="z-10 text-blue-600 font-semibold">
                     <ParallaxLayer offset={0} factor={1} speed={-2}>

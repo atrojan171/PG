@@ -17,7 +17,7 @@ export function Header({ isVisible }: HeaderProps){
     return(
         <div className={`header fixed w-screen h-24 overflow-hidden z-40 grid items-center ${visible ? "visible" : ""}`}  style={{backgroundColor:"#FAFAFA"}}>
             <div className="fixed">
-                <img className="ml-4 h-20 w-20" src="/images/logo/logo.png"/>
+                <img className="ml-4 h-20 w-20" src="/images/logo/logo-removedbg.png"/>
             </div>
             <nav className="flex flex-wrap flex-row list-none fixed right-0 text-base">
                 <Link to={"#about"}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">O nas</li></Link>
