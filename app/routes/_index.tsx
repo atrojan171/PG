@@ -52,7 +52,7 @@ export default function Index() {
           <div className="logo absolute translate-x-12 translate-y-6 border-none rounded-full overflow-hidden shadow-xl z-40">
             <img className="w-36 h-36" src="/images/logo/logo.png"/>
           </div>
-          <div className="absolute right-12 translate-y-14 min-2xl:translate-y-16 shadow-xl border-none rounded-3xl overflow-hidden bg-white z-40">
+          <div className="absolute right-12 translate-y-14 min-2xl:translate-y-16 shadow-xl border-none rounded-3xl overflow-hidden z-40"  style={{backgroundColor:"#FAFAFA"}}>
             <nav className="flex flex-wrap flex-row list-none min-2xl:text-xl text-base">
                 <Link to={"#about"}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">O nas</li></Link>
                 <Link to={""}><li className="p-5 hover:bg-blue-500 hover:text-white hover:underline cursor-pointer transition-all">Zavodni plavci</li></Link>

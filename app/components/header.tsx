@@ -15,7 +15,7 @@ export function Header({ isVisible }: HeaderProps){
     }, [isVisible]);
 
     return(
-        <div className={`header fixed w-screen h-24 overflow-hidden bg-white z-40 grid items-center ${visible ? "visible" : ""}`}>
+        <div className={`header fixed w-screen h-24 overflow-hidden z-40 grid items-center ${visible ? "visible" : ""}`}  style={{backgroundColor:"#FAFAFA"}}>
             <div className="fixed">
                 <img className="ml-4 h-20 w-20" src="/images/logo/logo.png"/>
             </div>
