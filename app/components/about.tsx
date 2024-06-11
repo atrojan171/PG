@@ -13,11 +13,11 @@ export function About(){
         <div className="w-screen h-screen relative" id="about">
             <Parallax pages={4} ref={parallax} className="no-scrollbar">
                 <ParallaxLayer factor={1} offset={0} sticky={{start: 0, end: 4}}>
-                    <div className="about z-10 absolute 3xl:-left-14 3xl:top-36 2xl:top-20 3xl:top-0 w-5/12 h-5/6 scale-75 rounded-full"></div>
+                    <div className="about z-10 absolute 3xl:-left-14 3xl:36 2xl:top-20 3xl:top-0 w-5/12 h-5/6 scale-75 rounded-full"></div>
                 </ParallaxLayer>
                 <div className="z-10 text-blue-600 font-semibold">
                     <ParallaxLayer offset={0} factor={1} speed={-2}>
-                        <div className="absolute 3xl:right-40 right-28 top-72 text-2xl text-center 3xl:top-80 shadow-2xl rounded-3xl">
+                        <div className="absolute 3xl:right-40 right-28 3xl:top-80 top-72 text-2xl text-center 3xl:top-80 shadow-2xl rounded-3xl">
                             <p className="p-8">
                                 Klub byl založen v říjnu 1966 a je zaměřen na závodní plavání. 
                             </p>
