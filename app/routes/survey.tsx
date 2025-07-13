@@ -24,17 +24,11 @@ export default function Survey() {
                         <span className="block">Sprav si bezplatnú online analýzu svojich financií a zisti, ako si na tom.</span>
                         <span className="block">Odhalíš slabé miesta, úniky peňazí a dostaneš tipy, ako si zlepšiť</span>
                         <span className="block">finančnú pohodu — bez toho, aby si niečo kupoval.</span>
+                        <span className="block"> ✅ Zabere ti to menej než 3 minúty</span>
                     </h2>
                 </div>
             </header>
             <SForm />
-            <div className="relative max-w-6xl mx-auto px-12 pb-6">
-                <p className="text-gray-700 text-sm sm:text-lg font-semibold leading-relaxed">
-                   <span className="block"> ✅ Zabere ti to menej než 3 minúty</span>
-                   <span className="block"> ✅ Výsledky ihneď na obrazovke</span>
-                   <span className="block"> ✅ Žiadne záväzky, len tvoja jasná finančná fotografia</span>           
-                </p>
-            </div>
         </div>
     );
 }
