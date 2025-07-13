@@ -15,7 +15,7 @@ export default function Survey() {
     return (
         <div className="window w-screen">
              <header className="relative pt-32">
-                <img src="/public/icon.jpg" className="absolute top-3 left-3 w-10 h-10" alt="Logo" />
+                <img src="/icon.jpg" className="absolute top-3 left-3 w-10 h-10" alt="Logo" />
                 <div className="max-w-6xl mx-auto px-12 pb-6">
                     <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
                         Vieš, kde ti miznú <span className="underline decoration-yellow-400 mr-1">peniaze</span>?<span className="text-2xl ml-2">Zisti to za 3 minúty.</span>

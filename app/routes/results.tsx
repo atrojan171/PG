@@ -18,7 +18,7 @@ export default function Results() {
 
         <div className="window w-screen">
             <header className="relative">
-                <img src="/public/icon.jpg" className="absolute top-3 left-3 w-10 h-10" alt="Logo" />
+                <img src="/icon.jpg" className="absolute top-3 left-3 w-10 h-10" alt="Logo" />
             </header>
             <RForm />
         </div>
