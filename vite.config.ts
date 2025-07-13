@@ -4,8 +4,9 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import { netlifyPlugin } from "@netlify/remix-edge-adapter/plugin";
 
 export default defineConfig({
-    plugins: [remix(), netlifyPlugin(), tsconfigPaths(), ],
-    ssr: {
-        noExternal: ['@remix-run/dev']
-    }
+  plugins: [remix(), netlifyPlugin(), tsconfigPaths()],
+  ssr: {
+    external: ['node:stream']
+  }
 });
+
