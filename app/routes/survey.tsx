@@ -57,10 +57,6 @@ export const action = async ({ request }: ActionFunctionArgs) => {
       analysis_data: analysisEntries.join('&'),
       results_url,
   };
-
-    console.log(payload);
-    console.log(process.env.API_URL);
-    console.log(process.env.SECRET_KEY!);
     
     try {
 
